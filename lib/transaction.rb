@@ -1,8 +1,9 @@
+# frozen_string_literal: true
+
 require 'date'
 require_relative 'account'
 
 class Transaction
-
   attr_reader :date
   attr_accessor :debit, :credit, :updated_balance
 
