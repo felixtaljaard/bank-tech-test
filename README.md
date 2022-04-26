@@ -2,6 +2,21 @@
 
 This is a practice tech test where you can deposit and withdraw money from a bank account, and print back the transaction history. This was a good chance to practice my TDD skills and OO design.
 
+### Setup
+
+* Run 'gem install rspec' to test the code.
+* Run 'gem install rubocop' to test the formatting of the code.
+
+* To run the tests, type 'rspec'
+
+* To run the code in irb:
+   * require ‘./lib/account’
+   * account = Account.new
+   * account.deposit(250)
+   * account.withdraw(150)
+   * account.print_statement
+
+
 ## Specification
 
 ### Requirements
