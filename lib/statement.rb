@@ -2,7 +2,8 @@
 
 class Statement
   def print(transaction_history)
-    puts "#{header} #{format_statement(transaction_history)}"
+    header 
+    format_statement(transaction_history)
   end
 
   def format_statement(transaction_history)
